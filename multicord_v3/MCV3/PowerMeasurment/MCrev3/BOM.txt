@@ -1,0 +1,62 @@
+Partlist exported from C:/Users/Daumantas/Desktop/MCrev3/AlmosFinalMC.sch at 2016-06-06 16:13
+
+Part Value       Device                    Package           Description                                             MF                MPN   OC_FARNELL OC_NEWARK SPICEMODEL SPICEPREFIX TP_SIGNAL_NAME
+C1   100n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C2   100n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C3   100n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C4   100n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C7   18n         CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C8   .22n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C9   .22n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C10  .22n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C11  .22n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C12  18n         CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C14  100n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C17  470u        CPOL-EUG                  PANASONIC_G       POLARIZED CAPACITOR, European symbol                                                                                                      
+C18  100n        CC0603                    C0603             CAPACITOR, European symbol                                                                           NONE       C                         
+C19  100u        CPOL-EUUD-4X5,8           UD-4X5,8_NICHICON POLARIZED CAPACITOR, European symbol                                                                                                      
+D1               DIODE-DO-214AC            DO-214AC          DIODE                                                                                                                                     
+D2               DIODE-DO-214AC            DO-214AC          DIODE                                                                                                                                     
+D3   5.1V zener  D-FILL-SOD123             SOD123            DIODE                                                                                                                                     
+MDL1             ESP8266-12EESP8266-ESP12E ESP8266-ESP12E    ESP8266-12E with additional I/O and GPIO04/05 corrected                                                                                   
+OK1  MOC3083     IL410                     DIL06             SIEMENS OPTO COUPLER                                    VISHAY/TELEFUNKEN IL410 1045434    58K1715                                        
+Q1   4.096M      CRYSTALHC49UP             HC49UP            CRYSTAL                                                                         unknown    unknown                                        
+R1   470         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R2   470         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R3   470         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R4   5R1         R                         R0805             RESISTOR, European symbol                                                                            NONE       R                         
+R5   10k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R6   10k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R7   470         R                         R0805             RESISTOR, European symbol                                                                            NONE       R                         
+R8   250k        R-EU_0204/7               0204/7            RESISTOR, European symbol                                                                                                                 
+R9   250k        R-EU_0204/7               0204/7            RESISTOR, European symbol                                                                                                                 
+R10  250k        R-EU_0204/7               0204/7            RESISTOR, European symbol                                                                                                                 
+R11  100         R-EU_0207/5V              0207/5V           RESISTOR, European symbol                                                                                                                 
+R12  100         R-EU_0309/10              0309/10           RESISTOR, European symbol                                                                                                                 
+R13  0.01        R-EU_V235/17              V235/17           RESISTOR, European symbol                                                                                                                 
+R14  180         R-EU_R0603                R0603             RESISTOR, European symbol                                                                                                                 
+R15  12k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R16  12k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R17  12k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R18  12k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R19  12k         RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R20  S14K250     S14K250                   S14K250           VARISTOR                                                                                                                                  
+R21  0.002       RR2512                    R2512             RESISTOR, European symbol                                                                            NONE       R                         
+R22  0           RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R23  0           RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R24  0           RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+R25  0           RR0603                    R0603             RESISTOR, European symbol                                                                            NONE       R                         
+TP1  TPSPAD1-13Y TPSPAD1-13Y               P1-13Y            TEST PIN                                                                                                                                  
+TP2  TPSPAD1-13Y TPSPAD1-13Y               P1-13Y            TEST PIN                                                                                                                                  
+TP3  TPSPAD1-13Y TPSPAD1-13Y               P1-13Y            TEST PIN                                                                                                                                  
+TP4  TPSPAD1-13Y TPSPAD1-13Y               P1-13Y            TEST PIN                                                                                                                                  
+TP5  TPSPAD1-13Y TPSPAD1-13Y               P1-13Y            TEST PIN                                                                                                                                  
+TP6  TPSPAD1-13Y TPSPAD1-13Y               P1-13Y            TEST PIN                                                                                                                                  
+TP7  TPPAD1-20   TPPAD1-20                 P1-20             Test pad                                                                                                                                  
+TP8  TPPAD1-20   TPPAD1-20                 P1-20             Test pad                                                                                                                                  
+TP9  TPPAD1-13   TPPAD1-13                 P1-13             Test pad                                                                                                                                  
+TP10 TPPAD1-13   TPPAD1-13                 P1-13             Test pad                                                                                                                                  
+U$1  CS5460A     CS5460A                   SSOP24                                                                                                                                                      
+U$3  POGO6       POGO6                     POGO6                                                                                                                                                       
+U$5  RAC02       RAC02                     RAC02                                                                                                                                                       
+U$7  SI8662      SI8662                    SOIC8                                                                                                                                                       

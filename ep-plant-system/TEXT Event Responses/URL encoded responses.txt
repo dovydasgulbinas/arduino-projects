@@ -1,0 +1,54 @@
+	=== TEMPERATURE ===
+1:17|18|19|50|
+1:27|18|19|50|
+1:10|18|19|50
+
+
+0,2,0,0,1
+140*3+1 = 421
+
+	== OK == (5)
+1.
+Enjoying the perfect temperature!
+Enjoying%20the%20perfect%20temperature!
+2.
+Chillaxing at the best temperature!
+Chillaxing%20at%20the%20best%20temperature!
+3.
+Not to warm and not to cold - EPIC!
+Not%20to%20warm%20and%20not%20to%20cold%20-%20EPIC!
+4.
+Currently at thermodynamic equilibrium.
+Currently%20at%20thermodynamic%20equilibrium.
+5.
+Two words: "Optimale Temperatur"
+Two%20words%3A%20%22Optimale%20Temperatur%22
+
+	== TO HOT == (3)
+1.Sweating like a mammal. Ewww	
+Sweating%20line%20a%20mammal.%20Ewww
+2.
+Status update: my room just enabled de_inferno mode
+Status+update%3A+my+room+just+enabled+de_inferno+mode
+3.
+And you still need more evidence on global warming? I'm sweating over here!
+And+you+still+need+more+evidence+on+global+warming%3F+Im+sweating+over+here!
+
+== TO COLD == (2)
+1.Im cold, help me out!
+Im+cold%2C+help+me+out!
+2.Feeling chilly.(pun intended)
+Feeling+chilly.(pun+intended)
+
+
+
+
+		=== PHRASE CODE ===
+		
+static char *temp[3][70]; 
+selector = (int)random(0, 3);
+*temp[0] = "";
+*temp[1] = "";
+*temp[2] = "";
+tweet(server, tsPort, twKey, *temp[selector]);
+		====================
