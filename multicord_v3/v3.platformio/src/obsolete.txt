@@ -1,0 +1,51 @@
+unsigned long get_voltage(uint8_t CS) {
+  uint8_t MSB = 0xFF, MMB = 0xFF, LSB = 0xFF; // if no transfer occurs we will 2^24 - 1 out 16,777,215
+  SPI.beginTransaction(SPIset);
+  digitalWrite(CS, LOW);
+  SPI.transfer(0x08);
+  MSB = SPI.transfer(0xFE);
+  MMB = SPI.transfer(0xFE);
+  LSB = SPI.transfer(0xFE);
+  digitalWrite(CS, HIGH);
+  SPI.endTransaction();
+  return (MSB << 16) + (MMB << 8) + LSB;
+}
+
+
+
+
+
+// union {
+//         uint32_t val;
+//         struct {
+//                 uint8_t lsb;
+//                 uint8_t mbb;
+//                 uint8_t mb;
+//                 uint8_t msb;
+//         };
+// } s_out, s_in; //slave_out, slave_in
+
+#include <stdio.h>
+
+union {
+        unsigned int sm;
+        struct {
+                unsigned int C : 1;
+                unsigned int B : 1;
+                unsigned int A : 1;
+        };
+}status, mask ;
+
+
+int main()
+{
+    status.A = 0;
+    status.B = 1;
+    status.C = 1;
+
+    printf(status.sm);
+
+
+
+    return 0;
+}
